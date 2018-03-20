@@ -6,3 +6,5 @@ print message
 print(message.lower())
 print(message.upper())
 print(message.swapcase())
+print(message.swapcase())
+print(message.swapcase())
