@@ -1,0 +1,33 @@
+    __________________________________________Python_____________________________________________
+
+1. Python intereactive mode is the one of the best feature, in this you can type any valid statement or sequence of statement 
+   and immediately view the result.
+2. When you are using python intereactly, the special variable _ holds the results of the last operation. [It is important to 
+   stress this variable is only defined when working interactively]
+3. print("%3d %0.2f" % (year, principal))  # Python 3
+4. Format strings contain ordinary text and special formatting-character sequences such as
+   "%d" , "%s" , and "%f" .
+5. A more modern approach to string formatting is to format each part individually using the format() function. For example:
+  print format(year,"3d"),format(principal,"0.2f")
+  print(format(year,"3d"),format(principal,"0.2f")) # Python 3
+  format() uses format specifiers that are similar to those used with the traditional string formatting operator ( % ).
+  
+  #!/usr/bin/python
+
+rajiv1=1
+rajiv2=5
+
+while rajiv1 <= rajiv2:
+        print format(rajiv1,"2d"), format(rajiv1,"2d")
+        rajiv1+=1
+
+
+################### COnditional ############################
+To create an empty clause, use the pass statement, as follows:
+if a < b:
+  pass
+      # Do nothing
+else:
+      print "Computer says No"
+      
+      111
