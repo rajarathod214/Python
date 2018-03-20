@@ -1,0 +1,47 @@
+From 0f1e650cfde7c2327660fae26ece85e9f3914484 Mon Sep 17 00:00:00 2001
+From: km19pg19_rajiv_rathod <rathod.raja7@gmail.com>
+Date: Tue, 20 Mar 2018 21:50:43 +0530
+Subject: [PATCH] added in my_python branch
+
+---
+ 1.py           | 1 +
+ tuple.py       | 4 +++-
+ upper_lower.py | 2 ++
+ 3 files changed, 6 insertions(+), 1 deletion(-)
+
+diff --git a/1.py b/1.py
+index 2c0c606..cff2aa5 100644
+--- a/1.py
++++ b/1.py
+@@ -3,4 +3,5 @@
+ sport=raw_input("Who is your favourite sportman ?").upper()
+ 
+ print sport
++print sport
+ 
+diff --git a/tuple.py b/tuple.py
+index 4f00da0..348388d 100644
+--- a/tuple.py
++++ b/tuple.py
+@@ -2,5 +2,7 @@
+ 
+ tuple = (1,2,3,4)
+ 
+-tuple[3]=10
++
++print tuple
++print tuple
+ print tuple
+diff --git a/upper_lower.py b/upper_lower.py
+index 0fd4f4a..43be4ce 100644
+--- a/upper_lower.py
++++ b/upper_lower.py
+@@ -6,3 +6,5 @@ print message
+ print(message.lower())
+ print(message.upper())
+ print(message.swapcase())
++print(message.swapcase())
++print(message.swapcase())
+-- 
+1.9.1
+
